@@ -1,0 +1,102 @@
+/* breadcrumb */
+#breadcrumb {
+    color: #777;
+}
+#breadcrumb > .container > .box {
+    padding: 30px 0;
+}
+
+#breadcrumb .row .col {
+    float: left;
+}
+
+#breadcrumb .row .col .link {
+   line-height: 31.2px;
+}
+
+#breadcrumb .row .col .link > a {
+    color: #777;
+}
+
+#breadcrumb .row .col .link > a:hover {
+    color: black;
+}
+
+#breadcrumb .row .col .link > span {
+    font-weight: bold;
+    color: black;
+}
+
+#breadcrumb .row .col > .result {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+#breadcrumb .row .col > #order {
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* tour */
+#tour > .container {
+    padding: 0 5px;
+}
+
+#tour > .container > .box {
+    margin-bottom: 40px;
+}
+
+#tour .row {
+    margin-bottom: 20px;
+}
+
+#tour .row > .col {
+    width: 33.33%;
+    padding: 0 10px;
+    float: left;
+}
+
+#tour .card  {
+    box-shadow: 0 1px 10px gray;
+}
+
+#tour .card > .image {
+    display: block;
+}
+
+#tour .card > .image > img {
+    width: 100%;
+}
+
+#tour .card > .info {
+    padding: 15px;
+}
+
+#tour .card > .info > .title {
+    display: inline-block;
+    color: #0c4999;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+#tour .card > .info > .price {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#tour .card > .info > .price > span {
+    color: red;
+    font-weight: bold;
+    margin-right: 90px;
+}
+
+#tour .card > .info > .price > .btn-detail {
+    color: white;
+    background-color: #F06E00;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}

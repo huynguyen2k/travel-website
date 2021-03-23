@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán tour</title>
+
+    <!-- Link -->
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/paytour.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/15e239e756.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Top-bar -->
+        <section id="top-bar">
+            <div class="container">
+                <div class="box">
+                    <div class="logo">
+                        <a href="index.html"
+                            title="Trang web mới - Giao diện website du lịch - Một trang web sử dung html và css">
+                            <img src="Image/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="Nhập khách sạn hoặc địa điểm muốn tìm">
+                        <a href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="hotline">
+                        <div class="icon-phone">
+                            <i class="fas fa-phone-square-alt"></i>
+                        </div>
+                        <div class="info">
+                            <p class="number-phone">0388235023</p>
+                            <p class="content">Gọi để được tư vấn ngay</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Top-menu -->
+        <nav id="top-menu">
+            <div class="container">
+                <div class="box">
+                    <ul class="menu">
+                        <li><a href="#">TRANG CHỦ</a></li>
+                        <li>
+                            <a href="#">KHÁCH SẠN <i class="fas fa-chevron-down"></i></a>
+                            <ul class="menu-child">
+                                <li><a href="#">Khách sạn miền Nam</a></li>
+                                <li><a href="#">Khách sạn Nha Trang</a></li>
+                                <li><a href="#">Khách sạn Phú Quốc</a></li>
+                                <li><a href="#">Khách sạn Ninh Bình</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">DU LỊCH TRONG NƯỚC</a></li>
+                        <li><a href="#">DU LỊCH NƯỚC NGOÀI</a></li>
+                        <li><a href="#">CHÍNH SÁCH CHUNG</a></li>
+                        <li><a href="#">KINH NGHIỆM DU LỊCH</a></li>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">LIÊN HỆ</a></li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main-->
+    <main>
+        <!-- pay-tour -->
+        <section id="pay-tour">
+            <div class="container">
+                <div class="box">
+                    <div class="column-left">
+                        <!-- img-tour -->
+                        <div class="img-tour">
+                            <!-- big-img -->
+                            <div class="big-img" title="Hình ảnh du lịch ở Đà Nẵng">
+                                <img src="Image/big-img-danang.png" alt="Đà Nẵng">
+                                <div class="arrow">
+                                    <span class="arrow-left"><i class="fas fa-chevron-left"></i></span>
+                                    <span class="arrow-right"><i class="fas fa-chevron-right"></i></span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <!-- slide-img -->
+                            <div class="slide-img">
+                                <div class="image"><img src="Image/slide1.png" alt="slide" class="active"></div>
+                                <div class="image"><img src="Image/slide2.jpg" alt="slide"></div>
+                                <div class="image"><img src="Image/slide3.jpg" alt="slide"></div>
+                                <div class="image"><img src="Image/slide4.jpeg" alt="slide"></div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-right">
+                        <!-- pay-tour -->
+                        <div class="contain-pay">
+                            <h2 class="title">Gọi để tư vấn</h2>
+                            <table class="detail">
+                                <tr>
+                                    <td class="tb-title">Thời gian</td>
+                                    <td class="tb-content">3 ngày 2 đêm</td>
+                                </tr>
+                                <tr>
+                                    <td class="tb-title">Lịch trình</td>
+                                    <td class="tb-content">Hồ Chí Minh - Đà Nẵng - Hồ Chí Minh</td>
+                                </tr>
+                                <tr>
+                                    <td class="tb-title">Vận chuyển</td>
+                                    <td class="tb-content">Máy bay</td>
+                                </tr>
+                            </table>
+                            <form action="#" class="pay">
+                                <div class="date row">
+                                    <div class="left">
+                                        <p style="line-height:30px;">Ngày khởi hành</p>
+                                    </div>
+                                    <div class="right">
+                                        <input type="date">
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="adult row">
+                                    <div class="left">
+                                        <p>Người lớn (14)</p>
+                                        <span>5,200,000 đ</span>
+                                    </div>
+                                    <div class="right">
+                                        <button><i class="fas fa-minus"></i></button>
+                                        <input type="text" value="1">
+                                        <button><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="child row">
+                                    <div class="left">
+                                        <p>Trẻ em (13)</p>
+                                        <span>100,000 đ</span>
+                                    </div>
+                                    <div class="right">
+                                        <button><i class="fas fa-minus"></i></button>
+                                        <input type="text" value="0">
+                                        <button><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="baby row">
+                                    <div class="left">
+                                        <p>Em bé (3)</p>
+                                        <span>100,000 đ</span>
+                                    </div>
+                                    <div class="right">
+                                        <button><i class="fas fa-minus"></i></button>
+                                        <input type="text" value="0">
+                                        <button><i class="fas fa-plus"></i></button>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="price row">
+                                    Tổng tiền: <span>5,200,000 đ</span>
+                                </div>
+                                <input type="submit" value="ĐẶT TOUR">
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </section>
+        <!-- tab-horizontal -->
+        <section id="tab-horizontal">
+            <div class="container">
+                <div class="box">
+                    <!-- tab -->
+                    <ul class="tab">
+                        <li><a href="#" class="active">MÔ TẢ</a></li>
+                        <li><a href="#">LỊCH TRÌNH</a></li>
+                        <li><a href="#">GHI CHÚ</a></li>
+                        <li><a href="#">ĐÁNH GIÁ (0)</a></li>
+                        <div class="clear"></div>
+                    </ul>
+                    <!-- tab-content -->
+                    <div class="tab-content">
+                        <div class="description current">
+                            <p style="margin-bottom:10px;">Nói đến Đà Nẵng là du khách có thể hình dung ngay rằng đó là
+                                một thành phố tuyệt đẹp bên sông Hàn, bên bờ biển Đông với những nét quyến rũ chưa từng
+                                có ở các đô thị biển khác…Nói đến Đà Nẵng không thể không nhắc đến dòng sông Hàn thơ
+                                mộng với những cây cầu được xem là biểu tưởng của thành phố. Biển cũng là nguồn cảm hứng
+                                du lịch vô tận mà Đà Nẵng có được. Ngũ Hành Sơn , Bán đảo Sơn Trà, Bà Nà…là những nơi
+                                không thể bỏ qua khi bạn đến nơi đây.</p>
+                            <p><strong>Tour du lịch Đà Nẵng</strong> sẽ đưa quý khách đến với thành phố biển Đà Nẵng –
+                                nơi mà bạn có thể cảm nhận được bốn mùa xuân hạ thu đông trong 1 ngày. Du lịch Việt Nam
+                                xin giới thiệu <strong>chùm tour du lịch Đà Nẵng</strong> từ 1 – 5 ngày cực hấp dẫn.
+                                Chúng tôi tự hào là công ty du lịch tổ chức <strong>tour du lịch Đà Nẵng giá rẻ
+                                    nhất</strong> miền bắc hiện nay.</p>
+                        </div>
+                        <div class="schedule">
+                            <h2 class="title">Lịch Trình</h2>
+                            <div class="day">
+                                <h3 class="title">Ngày 1:</h3>
+                                <p class="place">TP.HCM – ĐÀ NẴNG – HỘI AN (ăn trưa, chiều)</p>
+                                <div class="morning">
+                                    <p><i class="fas fa-circle"></i> <strong>Sáng: </strong>Quý khách có mặt tại ga quốc
+                                        nội, sân bay Tân Sơn Nhất trước giờ bay ít nhất ba tiếng.</p>
+                                    <p>Đại diện công ty <strong>Du Lịch Việt</strong> đón và hỗ trợ Quý Khách làm thủ
+                                        tục đón chuyến bay đi <strong>Huế.</strong></p>
+                                    <p>Đến sân bay <strong>Phú Bài</strong>, Hướng dẫn viên đón đoàn khởi hành về
+                                        <strong>Đà Nẵng.</strong></p>
+                                    <p>Tham quan một vòng <strong>bán đảo Sơn Trà</strong>…viếng <strong>Linh Ứng
+                                            Tự</strong> và thưởng ngoạn vẻ đẹp của biển Mỹ Khê (được đánh giá là một
+                                        trong những bãi biển quyến rũ nhất hành tinh).</p>
+                                </div>
+                                <div class="noon">
+                                    <p><i class="fas fa-circle"></i> <strong>Trưa: </strong>Dùng cơm trưa.</p>
+                                    <p>Quý khách tự do tắm bãi biển Phạm Văn Đồng với bãi cát trắng mịn trải dài, thu
+                                        hút rất nhiều khách du lịch trong và ngoài nước.</p>
+                                    <p>Tham quan <strong>Công viên Châu Á – Asia Park Đà Nẵng</strong>, bên bờ Tây sông
+                                        Hàn, sự kết hợp những nét độc đáo, mới lạ của các mô hình giải trí trên thế giới
+                                        với những nét văn hóa đặc sắc đậm chất Á Đông (chi phí tự túc).</p>
+                                </div>
+                                <div class="afternoon">
+                                    <p><i class="fas fa-circle"></i> <strong>Chiều: </strong>Dùng cơm chiều.</p>
+                                    <p>Quý khách có thể tự do dạo phố đêm tại Đà Nẵng, thưởng thức các món đặc sản đặc
+                                        sắc nơi địa phương.</p>
+                                </div>
+                            </div>
+                            <div class="day">
+                                <h3 class="title">Ngày 2:</h3>
+                                <p class="place">ĐÀ NẴNG – CAO NGUYÊN BÀ NÀ (ăn sáng, chiều) (ăn trưa tự túc)</p>
+                                <div class="morning">
+                                    <p><i class="fas fa-circle"></i> <strong>Sáng: </strong>Dùng buffet sáng tại khách
+                                        sạn.</p>
+                                    <p>Khởi hành đến với <strong>cao nguyên Bà Nà</strong> nơi có khí hậu Châu Âu độc
+                                        đáo và nổi tiếng với tuyến cáp treo kỷ lục mới của thế giới – Ngắm toàn cảnh
+                                        thành phố Đà Nẵng từ trên cáp treo (chi phí cáp treo tự túc).</p>
+                                    <p>Quý khách tự do tham quan, vui chơi giải trí tại <strong>Bà Nà</strong> với
+                                        <strong>Công Viên Fantasy, Rạp chiếu phim 3D Mega 360 độ với công nghệ hiện đại
+                                            nhất và duy nhất có ở Viêt Nam, Hai rạp chiếu phim 4D và 5Di, Xe Trượt Ống,
+                                            Hầm rượu, Vườn hoa tình yêu, Bảo Tàng Sáp.</strong></p>
+                                </div>
+                                <div class="noon">
+                                    <p><i class="fas fa-circle"></i> <strong>Trưa: </strong>Quý khách tự túc bữa ăn
+                                        trưa.</p>
+                                    <p>Du khách có thể tìm thấy những biểu tượng mang tính tâm linh như chùa chiền, đền
+                                        đài hay tượng các đức Phật. Chắc hẳn sẽ là điểm dừng chân cho những ai mong cầu
+                                        bình an và sức khỏe cho gia đình: <strong>Chùa Linh Ứng, Đền Lĩnh Chúa Linh Từ,
+                                            Tháp Linh Phong Tự, Tượng Thích Ca Mâu Ni, Lầu Chuông, Nhà Bia, Miếu Bà, Trú
+                                            Vũ Trà Quán.</strong></p>
+                                </div>
+                                <div class="afternoon">
+                                    <p><i class="fas fa-circle"></i> <strong>Chiều: </strong>Dùng cơm chiều. Nghỉ đêm
+                                        tại <strong>Đà Nẵng.</strong></p>
+                                    <p>Quý khách tự do dạo phố, ngắm các cây cầu nổi tiếng của thành phố Đà Nẵng: cầu
+                                        Rồng, cầu Sông Hàn, cầu Trần Thị Lý, cầu Thuận Phước…</p>
+                                </div>
+                            </div>
+                            <div class="day" style="padding-bottom:50px;">
+                                <h3 class="title">Ngày 3:</h3>
+                                <p class="place">ĐÀ NẴNG – TP.HCM (ăn sáng, trưa)</p>
+                                <div class="morning">
+                                    <p><i class="fas fa-circle"></i> <strong>Sáng: </strong>Dùng buffet sáng tại khách
+                                        sạn.</p>
+                                    <p>Tham quan <strong>Ngũ Hành Sơn</strong> – được ví như hòn non bộ khổng lồ giữa
+                                        lòng thành phố Đà Nẵng với <strong>Động Huyền Không, Chùa Linh Ứng, Chùa Tam
+                                            Thai, Vọng Hải Đài</strong>, …mua sắm quà lưu niệm tại làng nghề điêu khắc
+                                        đá Non Nước.</p>
+                                </div>
+                                <div class="noon">
+                                    <p><i class="fas fa-circle"></i> <strong>Trưa: </strong>Dùng cơm trưa.</p>
+                                    <p>Đến <strong>Hội An</strong>, tham quan <strong>Phố Cổ Hội An</strong> – <i>di sản
+                                            văn hoá thế giới với Chùa Cầu Nhật Bản, Hội Quán Phúc Kiến, Nhà Cổ Phùng
+                                            Hưng…</i></p>
+                                    <p>Hướng dẫn viên tiễn đoàn ra sân bay Đà Nẵng, đón chuyến bay về TP.HCM.</p>
+                                    <p>Kết thúc chương trình tham quan, chia tay và hẹn gặp lại.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="note">
+                            <h2 class="title">Ghi chú</h2>
+                            <p style="margin-bottom:10px;">Giờ bay có thể thay đổi theo quy định của hàng không. Du Lịch
+                                Việt sẽ thay đổi chương trình cho phù hợp với giờ bay mới nhưng sẽ không chịu trách
+                                nhiệm về các khoản chi phí phát sinh.</p>
+                            <h3 class="sub-title">Giá tour bao gồm:</h3>
+                            <ul>
+                                <li>Vé máy bay khứ hồi TP.HCM – ĐÀ NẴNG – TP.HCM (Vietjet Air, Jetstar Pacific)</li>
+                                <li>Xe tham quan (xe 16 chỗ, 29 chỗ, 35 chỗ, 45 chỗ) tùy theo số lượng khách thực tế
+                                    trên chuyến đi.</li>
+                                <li>Khách sạn tiêu chuẩn đầy đủ tiện nghi 2 khách người lớn/ phòng. Nếu lẻ người thứ 3,
+                                    đóng phụ phí phòng đơn hoặc ngủ ghép phòng 3 khách.</li>
+                                <li>Khách sạn 3 sao tại Đà Nẵng: Kay, Hoàng Sa, Ocean Heaven,…hoặc tương đương.</li>
+                                <li>Ăn uống theo chương trình:</li>
+                                <li>Ăn phụ: 2 bữa buffet sáng tại khách sạn.</li>
+                                <li>Ăn chính: 4 bữa chính tiêu chuẩn 100.000 đồng/bữa.</li>
+                                <li>Vé tham quan theo chương trình.</li>
+                                <li>Hướng dẫn viên tiếng Việt vui vẻ nhiệt tình suốt chuyến đi.</li>
+                                <li>Bảo hiểm với mức bồi thường tối đa 30.000.000 đồng/trường hợp.</li>
+                                <li>Quà tặng: nón du lịch Việt, nước, khăn lạnh.</li>
+                            </ul>
+                            <h3 class="sub-title">Không bao gồm:</h3>
+                            <ul>
+                                <li>Bia hay nước ngọt trong các bữa ăn.</li>
+                                <li>Tham quan ngoài chương trình.</li>
+                                <li>Chi phí cá nhân: điện thoại, giặt ủi…</li>
+                                <li>Vé cáp treo đi Bà Nà, công viên Châu Á – Sunworld, …</li>
+                                <li><strong>1 bữa ăn trưa ngày thứ 2 tham quan Bà Nà.</strong></li>
+                                <li>Chi phí bãi biển: dù, võng, tắm nước ngọt…</li>
+                                <li>Thuế VAT.</li>
+                            </ul>
+                            <h3 class="sub-title">Giá vé dành cho trẻ em:</h3>
+                            <ul>
+                                <li>Trẻ em dưới 02 tuổi: miễn giá tour, giá vé máy bay theo quy định của hãng hàng
+                                    không, Cha, Mẹ hoặc người thân đi kèm tự lo các chi phí ăn, ngủ, tham quan (nếu có)
+                                    cho bé.</li>
+                                <li>Trẻ em từ 02 – dưới 05 tuổi: 100 % giá vé máy bay; miễn giá tour. Cha, Mẹ hoặc người
+                                    thân đi kèm tự lo các chi phí ăn, ngủ, tham quan (nếu có) cho bé. Hai người lớn chỉ
+                                    kèm 1 trẻ em dưới 5 tuổi, trẻ em thứ 2 trở lên phải mua ½ vé tour.</li>
+                                <li>Trẻ em từ 05 – dưới 11 tuổi: 100 % giá vé máy bay; 50% giá tour. Bao gồm các dịch vụ
+                                    ăn uống, ghế ngồi trên xe và ngủ chung với gia đình. Hai người lớn chỉ được kèm 1
+                                    trẻ em từ 5 đến dưới 11 tuổi, trẻ em thứ 2 trở lên Cha, Mẹ nên mua thêm 1 suất
+                                    giường đơn.</li>
+                                <li>Từ 11 tuổi trở lên: 100% giá tour và tiêu chuẩn như người lớn.</li>
+                            </ul>
+                            <h3 class="sub-title">Quy định thanh toán, hủy vé:</h3>
+                            <ul>
+                                <li>Sau khi xác nhận và thanh toán (ít nhất 50% tiền cọc giữ chỗ và thanh toán đủ 100%
+                                    tổng giá trị tiền tour trước 10 ngày khởi hành).</li>
+                                <li>Khi đến ngày thanh toán đủ 100% tổng giá trị tiền tour, nếu Quý khách không thanh
+                                    toán đúng hạn và đúng số tiền được xem như Quý khách tự ý huỷ tour và mất hết số
+                                    tiền đã đặt cọc giữ chỗ.</li>
+                                <li>Vé Máy Bay / vé xe lửa / vé tàu cao tốc được xuất ngay sau khi quý khách đóng tiền
+                                    và có xác nhận sự chính xác về họ, tên (đúng từng ký tự ghi trong hộ chiếu hoặc
+                                    CMND), ngày-tháng-năm sinh … của hành khách theo yêu cầu của hãng vận chuyển. Mọi sự
+                                    thay đổi liên quan đến vé đã xuất: ngày giờ đi, tên hành khách, hủy vé, quý khách
+                                    vui lòng chịu chi phí theo qui định sau:</li>
+                                <li><strong>Ngay sau khi Quý khách đăng ký tour nếu hủy sẽ bị phạt tiền tour và vé máy
+                                        bay: </strong></li>
+                                <li>Ngay sau khi đặt cọc hoặc thanh toán hoặc trước 15 ngày: phí hủy 35% tiền tour +
+                                    100% Vé máy bay.</li>
+                                <li>Hủy 10 ngày trước ngày khởi hành: phí hủy 50% tiền tour + 100% vé máy bay.</li>
+                                <li>Hủy 07 ngày trước ngày khởi hành: phí hủy 70% tiền tour + 100% vé máy bay.</li>
+                                <li>Hủy 05 ngày trước ngày khởi hành: phí hủy 100% tiền tour + 100% vé máy bay.</li>
+                                <li>Trường hợp quý khách đến trễ giờ khởi hành được tính là hủy 5 ngày trước ngày khởi
+                                    hành.</li>
+                                <li>Do tính chất là đoàn ghép khách lẻ, Du Lịch Việt sẽ có trách nhiệm nhận khách đăng
+                                    ký cho đủ đoàn (10 khách người lớn trở lên) thì đoàn sẽ khởi hành đúng lịch trình.
+                                    Nếu số lượng đoàn dưới 10 khách, công ty có trách nhiệm thông báo cho khách trước
+                                    ngày khởi hành 3 ngày và sẽ thỏa thuận lại ngày khởi hành mới hoặc hoàn trả toàn bộ
+                                    số tiền đã đặt cọc tour.</li>
+                                <li>Việc huỷ bỏ chuyến đi phải được thông báo trực tiếp với Công ty hoặc qua fax, email,
+                                    tin nhắn và phải được Công ty xác nhận. Việc huỷ bỏ bằng điện thoại không được chấp
+                                    nhận.</li>
+                                <li>Các ngày đặt cọc, thanh toán, huỷ và dời tour: không tính thứ 7, Chủ Nhật.</li>
+                                <li>Trong những trường hợp bất khả kháng như: khủng bố, bạo động, thiên tai, lũ lụt… Tuỳ
+                                    theo tình hình thực tế và sự thuận tiện, an toàn của khách hàng, công ty Du Lịch sẽ
+                                    chủ động thông báo cho khách hàng sự thay đổi như sau: huỷ hoặc thay thế bằng một
+                                    chương trình mới với chi phí tương đương chương trình tham quan trước đó. Trong
+                                    trường hợp chương trình mới có phát sinh thì Khách hàng sẽ thanh toán khoản phát
+                                    sinh này. Tuy nhiên, mỗi bên có trách nhiệm cố gắng tối đa, giúp đỡ bên bị thiệt hại
+                                    nhằm giảm thiểu các tổn thất gây ra vì lý do bất khả kháng.…</li>
+                                <li>Đối với sự thay đổi lịch trình, giờ bay do lỗi của hãng hàng không, tàu hoả, tàu
+                                    thuỷ, Du Lịch Việt sẽ không chịu trách nhiệm bất kỳ phát sinh nào do lỗi trên như:
+                                    phát sinh bữa ăn, nhà hàng, khách sạn, phương tiện di chuyển, hướng dẫn viên, ….
+                                </li>
+                            </ul>
+                            <h3 class="sub-title">Lưu ý:</h3>
+                            <ul>
+                                <li>Khi đăng ký tour khách hàng bắt buộc phải gởi giấy tờ tùy thân cho đơn vị du lịch để
+                                    vào tên xuất vé và mua bảo hiểm du lịch. Những giấy tờ cá nhân của khách hàng (CMND
+                                    hoặc Passport) thuộc về trách nhiệm của khách hàng. Mọi vấn đề như hình ảnh, thông
+                                    tin giấy tờ trong bản gốc bị mờ, không rõ ràng; Passport, CMND hết hạn,… không đúng
+                                    quy định của pháp luật Việt Nam, Du Lịch Việt sẽ không chịu trách nhiệm và sẽ không
+                                    hoàn trả bất cứ chi phí phát sinh nào.</li>
+                                <li>Đối với khách Nước ngoài/Việt Kiều: Khi đi tour phải mang theo đầy đủ Passport (Hộ
+                                    Chiếu), Visa Việt Nam bản chính còn hạn sử dụng làm thủ tục lên máy bay theo qui
+                                    định hàng không.</li>
+                                <li>Trẻ em (dưới 12 tuổi) khi đi du lịch mang theo giấy khai sinh (bản chính hoặc sao y
+                                    có thị thực còn hạn sử dụng) để làm thủ tục hàng không.</li>
+                                <li>Quý khách từ 14 tuổi bắt buộc phải có CMND hoặc Passport (còn hạn sử dụng), KHÔNG SỬ
+                                    DỤNG GIẤY KHAI SINH. Nếu trẻ em từ 14 tuổi chưa có CMND hoặc Passport bắt buộc phải
+                                    có Giấy xác nhận nhân thân (Có xác nhận chính quyền (còn hạn sử dụng)) + Giấy khai
+                                    sinh.</li>
+                                <li>Một số thứ tự, chi tiết trong chương trình; giờ bay; giờ xe lửa; giờ tàu cao tốc có
+                                    thể thay đổi để phù hợp với tình hình thực tế của chuyến đi (thời tiết, giao thông…)
+                                </li>
+                                <li>Qui định nhận & trả phòng tại các khách sạn/resort: nhận phòng sau 14H00 và trả
+                                    phòng trước 12H00 .</li>
+                                <li>Hành lý và tư trang du khách tự bảo quản trong quá trình du lịch .</li>
+                                <li>Vì lý do sức khỏe và an toàn vệ sinh thực phẩm, Quý Khách vui lòng không mang thực
+                                    phẩm từ bên ngoài vào nhà hàng, khách sạn. Đối với thức uống khi mang vào phải có sự
+                                    đồng ý của nhà hàng, khách sạn và bị tính phí nếu có.</li>
+                            </ul>
+                        </div>
+                        <div class="rate">
+                            <div class="contain-rate">
+                                <h2 class="title">Đánh giá Tour Đà Nẵng – Hội An 3N2Đ</h2>
+                                <div class="box-star">
+                                    <div class="box-star-left">
+                                        <div class="row-star">
+                                            <span class="star">1 <i class="fas fa-star"></i></span>
+                                            <span class="level"></span>
+                                            <span class="percent">0% |</span>
+                                            <span class="number">0 đánh giá</span>
+                                        </div>
+                                        <div class="row-star">
+                                            <span class="star">2 <i class="fas fa-star"></i></span>
+                                            <span class="level"></span>
+                                            <span class="percent">0% |</span>
+                                            <span class="number">0 đánh giá</span>
+                                        </div>
+                                        <div class="row-star">
+                                            <span class="star">3 <i class="fas fa-star"></i></span>
+                                            <span class="level"></span>
+                                            <span class="percent">0% |</span>
+                                            <span class="number">0 đánh giá</span>
+                                        </div>
+                                        <div class="row-star">
+                                            <span class="star">4 <i class="fas fa-star"></i></span>
+                                            <span class="level"></span>
+                                            <span class="percent">0% |</span>
+                                            <span class="number">0 đánh giá</span>
+                                        </div>
+                                        <div class="row-star">
+                                            <span class="star">5 <i class="fas fa-star"></i></span>
+                                            <span class="level"></span>
+                                            <span class="percent">0% |</span>
+                                            <span class="number">0 đánh giá</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-star-right">
+                                        <a href="#" class="review" title="Đánh giá ngay">ĐÁNH GIÁ NGAY</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <p>Chưa có đáng giá nào</p>
+                                <div class="line"></div>
+                                <form action="#" class="comment">
+                                    <textarea name="comment" id="comment"
+                                        placeholder="Nhập vào bình luận của bạn"></textarea>
+                                    <div class="info">
+                                        <input type="radio" name="gender" id="male" class="gender">
+                                        <label for="male">Nam</label>
+                                        <input type="radio" name="gender" id="female" class="gender">
+                                        <label for="female">Nữ</label>
+                                        <input type="text" placeholder="Họ tên">
+                                        <input type="text" placeholder="Email">
+                                        <input type="submit" value="GỬI">
+                                    </div>
+                                </form>
+                                <p>Chưa có bình luận nào</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tour -->
+        <section id="tour">
+            <div class="container">
+                <div class="box">
+                    <h2 class="title">CÓ THỂ BẠN THÍCH</h2>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <a href="#" class="image">
+                                    <img src="Image/tour-sapa.jpg" alt="tour sapa">
+                                </a>
+                                <div class="info">
+                                    <a href="#" class="title"><h3>Tour du lịch Sapa 3 ngày 2 đêm</h3></a>
+                                    <div class="price">
+                                        <span>2,000,000 đồng</span>
+                                        <a href="#" class="btn-detail">Chi tiết</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#" class="image">
+                                    <img src="Image/tour-da_lat.jpg" alt="tour Đà Lạt">
+                                </a>
+                                <div class="info">
+                                    <a href="#" class="title"><h3>Tour Đà Lạt 2 ngày 1 đêm</h3></a>
+                                    <div class="price">
+                                        <span>1,800,000 đồng</span>
+                                        <a href="#" class="btn-detail">Chi tiết</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#" class="image">
+                                    <img src="Image/tour-da_nang.png" alt="tour Đà Nẵng">
+                                </a>
+                                <div class="info">
+                                    <a href="#" class="title"><h3>Tour Đà Nẵng - Hội An 3N2Đ</h3></a>
+                                    <div class="price">
+                                        <span>5,200,000 đồng</span>
+                                        <a href="#" class="btn-detail">Chi tiết</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <a href="#" class="image">
+                                    <img src="Image/tour-ha_giang.jpg" alt="tour Hà Giang">
+                                </a>
+                                <div class="info">
+                                    <a href="#" class="title"><h3>Tour Hà Giang 5 ngày 4 đêm</h3></a>
+                                    <div class="price">
+                                        <span>4,000,000 đồng</span>
+                                        <a href="#" class="btn-detail">Chi tiết</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#" class="image">
+                                    <img src="Image/tour-nha_trang.jpg" alt="tour Nha Trang">
+                                </a>
+                                <div class="info">
+                                    <a href="#" class="title"><h3>Tour Nha Trang 4 ngày 3 đêm</h3></a>
+                                    <div class="price">
+                                        <span>3,700,000 đồng</span>
+                                        <a href="#" class="btn-detail">Chi tiết</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="#" class="image">
+                                    <img src="Image/tour-ninh-binh.jpg" alt="tour Ninh Bình">
+                                </a>
+                                <div class="info">
+                                    <a href="#" class="title"><h3>Tour Ninh Binh 3 ngày 2 đêm</h3></a>
+                                    <div class="price">
+                                        <span>3,000,000 đồng</span>
+                                        <a href="#" class="btn-detail">Chi tiết</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <section id="copyright">
+            <div class="container">
+                <div class="box">
+                    <div class="row">
+                        <div class="col">
+                            <div class="info">
+                                <h3 class="title">THÔNG TIN LIÊN HỆ</h3>
+                                <p class="company">Công ty Du Lịch Divui</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 155 Láng Hạ – Phố Cổ – Đà Nẵng</p>
+                                <p><i class="fas fa-phone-alt"></i> +84-316-255-028</p>
+                                <p><i class="fas fa-qrcode"></i> MST 1212585222</p>
+                                <p><i class="far fa-envelope"></i> info@365travel.asia <i class="fas fa-globe-asia"></i>
+                                </p>
+                                <p><i class="fab fa-facebook-square"></i> facebook.com/du.lich.di.vui/</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="support">
+                                <h3 class="title">HỖ TRỢ TƯ VẤN</h3>
+                                <div class="hotline">
+                                    <p style="margin-bottom:10px;">TEL 02583 891 504</p>
+                                    <p>HOTLINE 092 184 2767</p>
+                                </div>
+                                <div class="link-share">
+                                    <a href="#">
+                                        <i class="fab fa-facebook"></i>
+                                        <span class="tool-tip">Share on Facebook</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                        <span class="tool-tip">Share on Twitter</span>
+                                    </a>
+                                    <a href="#" style="background-color:black;">
+                                        <i class="fas fa-envelope-square"></i>
+                                        <span class="tool-tip">Email to a Friend</span>
+                                    </a>
+                                    <a href="#" style="background-color:red;">
+                                        <i class="fab fa-pinterest"></i>
+                                        <span class="tool-tip">Pin on Pinterest</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                        <span class="tool-tip">Share on LinkedIn</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="info-need">
+                                <h3 class="title">THÔNG TIN CẦN BIẾT</h3>
+                                <ul class="list">
+                                    <li><a href="#">Điều kiện điều khoản</a></li>
+                                    <li><a href="#">Phương thức thanh toán</a></li>
+                                    <li><a href="#">Bảo mật thông tin khách hàng</a></li>
+                                    <li><a href="#">Chính sách quy định</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="fanpage">
+                                <h3 class="title">FANPAGE FACEBOOK</h3>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="slogan">Copyright 2020 ©
+                        <span style="font-weight:bold;">Travel Tour - Đưa bạn đi muôn nơi</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

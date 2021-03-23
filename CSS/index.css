@@ -1,0 +1,197 @@
+/* top-slide */
+
+#top-slide > .full-container > .image {
+    max-width: 1370px;
+    margin: 0 auto 30px auto;
+}
+
+#top-slide > .full-container > .image > img {
+    width: 100%;
+}
+
+/* tour-popular */
+
+#tour-popular {
+    background-color: #f5f5f5;
+}
+
+#tour-popular > .container {
+    padding: 0 5px;
+}
+
+main .container > .box {
+    padding: 45px 0;
+}
+
+main .container > .box > .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #f99b1c;
+    margin-bottom: 30px;
+}
+
+main .container > .box .col {
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+}
+
+/* card-tour */
+
+.card-tour {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.card-tour > .image {
+    display: block;
+}
+
+.card-tour > .image > img {
+    width: 100%;
+}
+
+.card-tour > .info {
+    padding: 20px 10px;
+}
+
+.card-tour > .info > .title {
+    display: inline-block;
+    color: #0c4999;
+    margin-bottom: 20px;
+}
+
+.card-tour > .info > .price > span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #c20509;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+
+.card-tour > .info > .price > a {
+    display: inline-block;
+    padding: 7px 10px;
+    color: #ffffff;
+    background-color: #F06E00;
+    border-radius: 7px;
+}
+
+/* tour */
+#tour > .container > .box > .row {
+    margin-bottom: 20px;
+}
+
+/* hotel */
+#hotel {
+    background-color: #f5f5f5;
+}
+
+#hotel > .container > .box > .row {
+    margin-bottom: 20px;
+}
+
+/* card-hotel */
+
+.card-hotel {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.card-hotel > .image {
+    display: block;
+}
+
+.card-hotel > .image > img {
+    width: 100%;
+}
+
+.card-hotel > .info {
+    padding: 20px 10px;
+}
+
+.card-hotel > .info > .title {
+    display: inline-block;
+    color: #0c4999;
+    margin-bottom: 20px;
+}
+
+.card-hotel > .info > .address {
+    color: #868686;
+    text-align: center;
+}
+
+.card-hotel > .info > .address > p {
+    margin-bottom: 10px;
+}
+
+.star .active {
+    color: #f1c514;
+}
+
+.card-hotel > .info > .address > .star {
+    margin-bottom: 10px;
+}
+
+.card-hotel > .info > .price > span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #c20509;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+
+.card-hotel > .info > .price > a {
+    display: inline-block;
+    padding: 7px 10px;
+    color: #ffffff;
+    background-color: #F06E00;
+    border-radius: 7px;
+}
+
+/* handbook */
+
+#handbook > .container > .box > .left {
+    float: left;
+    width: 50%;
+    padding: 0 15px 0 10px;
+}
+
+#handbook .left > a > .article > img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#handbook .left > a > .article > .title {
+    margin-bottom: 15px;
+}
+
+#handbook > .container > .box > .right {
+    float: left;
+    width: 50%;
+    padding: 0 10px 0 15px;
+}
+
+#handbook > .container > .box > .right > .link-art {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#handbook .right .article > .image {
+    float: left;
+    width: 35%;
+}
+
+#handbook .right .article > .image > img {
+    width: 100%;
+}
+
+#handbook .right .article > .detail {
+    margin-left: 35%;
+    padding: 15px 0 0 15px;
+}
+
+#handbook .right .article > .detail > .title {
+    margin-bottom: 15px;
+}

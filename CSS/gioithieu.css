@@ -1,0 +1,162 @@
+/* about-us */
+#about-us > .container > .box {
+    padding: 30px 0;
+}
+
+/* column-left */
+#about-us .column-left {
+    float: left;
+    width: 25%;
+}
+
+/* form-contact */
+#about-us .form-contact {
+    padding: 10px 20px 0 0;
+    margin-bottom: 50px;
+}
+
+#about-us .form-contact > p {
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+#about-us .form-contact .image > img {
+    width: 100%;
+}
+
+#about-us .form-contact input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+#about-us .form-contact input[type="submit"] {
+    font-weight: bold;
+    color: white;
+    background-color: darkorange;
+    border: none;
+    cursor: pointer;
+}
+
+#about-us .form-contact input[type="submit"]:hover {
+    background-color: rgb(196, 112, 10);
+}
+
+/* hotel and tour hot */
+#about-us .hot {
+    padding-right: 20px;
+}
+
+#about-us .hot > .title {
+    color: #777777;
+    font-size: 1rem;
+}
+
+/* hotel-hot */
+#about-us .hotel-hot,
+#about-us .tour-hot {
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+#about-us .hotel-hot .image,
+#about-us .tour-hot .image {
+    float: left;
+    width: 30%;
+}
+
+#about-us .hotel-hot .image > img,
+#about-us .tour-hot .image > img {
+    width: 100%;
+}
+
+#about-us .hotel-hot .info,
+#about-us .tour-hot .info {
+    float: left;
+    width: 70%;
+    padding-left: 10px;
+}
+
+#about-us .hotel-hot .info > .title,
+#about-us .tour-hot .info > .title {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+#about-us .hotel-hot .info > .price {
+    color: #00c0c0;
+    font-size: 1rem;
+}
+
+#about-us .hotel-hot .info > .price > .old {
+    text-decoration: line-through;
+    text-decoration-color: gray;
+    margin-right: 5px;
+}
+
+#about-us .hotel-hot .info > .price > .new {
+    font-weight: bold;
+}
+
+/* tour-hot */
+#about-us .tour-hot .info > .rate {
+    margin-bottom: 5px;
+}
+
+#about-us .tour-hot .info > .rate > .star {
+    float: left;
+}
+
+.rate > .active {
+    color: #d58512;
+}
+
+.rate > .in-active {
+    color: gray;
+}
+
+#about-us .tour-hot .info > .price {
+    color: #00c0c0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* column-right */
+#about-us .column-right {
+    float: left;
+    width: 75%;
+}
+
+#about-us .about {
+    padding: 0 15px;
+    padding-bottom: 100px;
+    border-left: 1px solid lightgray;
+}
+
+#about-us .about > .image > img {
+    width: 100%;
+}
+
+#about-us .about > .story > .title {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+#about-us .about > .story > .content {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+#about-us .about > .brand > .title {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+#about-us .about > .brand > .content {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 25px;
+}

@@ -1,0 +1,171 @@
+/* post */
+
+#post > .container > .box {
+    padding: 30px 0;
+}
+
+/* column-left */
+#post > .container > .box > .column-left {
+    float: left;
+    width: 75%;
+}
+
+#post .column-left .article {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#post .column-left .article > .image {
+    width: 40%;
+    float: left;
+}
+
+#post .column-left .article > .image > img {
+    width: 100%;
+}
+
+#post .column-left .article > .info {
+    width: 60%;
+    float: left;
+    padding: 0 50px 0 20px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateY(-50%);
+}
+
+#post .column-left .article > .info > .title {
+    margin-bottom: 5px;
+}
+
+#post .column-left .article > .info > .content {
+    line-height: 20px;
+}
+
+/* column-right */
+#post > .container > .box > .column-right {
+    float: left;
+    width: 25%;
+}
+
+/* form-contact */
+#post .column-right .contact {
+    background-color: dodgerblue;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+}
+
+#post .column-right .contact > p {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#post .column-right .contact > p::selection {
+    background-color: black;
+}
+
+#post .column-right .contact > .number-phone {
+    margin-bottom: 10px;
+}
+
+#post .column-right .contact > .number-phone > img {
+    width: 100%;
+}
+
+#post .column-right .contact > input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+#post .column-right .contact > input[type="submit"] {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: white;
+    background-color: darkorange;
+    border: none;
+    padding: 7px 5px;
+    cursor: pointer;
+}
+
+#post .column-right .contact > input[type="submit"]:hover {
+    background-color: rgb(197, 114, 13);
+}
+
+/* tour&hotel-hot */
+#post .column-right .hot > .title {
+    color: #777777;
+}
+
+/* hotel-tour */
+#post .hotel,
+#post .tour {
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+    font-size: 1rem;
+}
+
+#post .hotel .image,
+#post .tour .image {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+#post .hotel .image > img,
+#post .tour .image > img {
+    width: 100%;
+}
+
+#post .hotel .info,
+#post .tour .info {
+    width: 75%;
+    float: left;
+    padding-left: 10px;
+}
+
+#post .hotel .info > .title,
+#post .tour .info > .title {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#post .hotel .info > .price {
+    color: #00c0c0;
+}
+
+#post .hotel .info > .price > .old-price {
+    text-decoration: line-through;
+    text-decoration-color: gray;
+}
+
+#post .hotel .info > .price > .current-price {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* tour */
+#post .tour .info > .rate {
+    margin-bottom: 5px;
+}
+
+#post .tour .info > .rate > .star {
+    float: left;
+}
+
+#post .tour .info > .price {
+    color: #00c0c0;
+    font-weight: bold;
+}
+
+.rate > .active {
+    color: #d58512;
+}
+
+.rate > .in-active {
+    color: gray;
+}
